@@ -42,7 +42,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 6.Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
-/*
+```
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: AMRUTHA RAJSHEKER
 RegisterNumber: 212222110003
@@ -61,7 +61,7 @@ input w,x,y,z;
 output f2;
 assign f2 = (x&y)|(w&y)|(~y&z);
 endmodule
-*/
+```
 
 ## RTL realization
 ## Output:
